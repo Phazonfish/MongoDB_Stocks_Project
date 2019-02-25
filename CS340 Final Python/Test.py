@@ -5,9 +5,15 @@ import bottle
 from bottle import route, run, request, abort
 import pymongo
 from pymongo import MongoClient
+
+//This is the class that runs the RESTful API
+//The at route statements indicate what URI you should enter to call these functions
+
+//Connect to the database and collection
 connection = MongoClient('localhost', 27017)
 db = connection['market']
 collection = db['stocks']
+
 # set up URI paths for REST service
 @route('/stocks/api/v1.0/getStock/<tickerSymR>', method='GET')
 def rest_read(tickerSymR):
