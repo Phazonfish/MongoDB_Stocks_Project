@@ -13,6 +13,7 @@ def find_tickers():
   try:
     script_name, input = sys.argv     //separates arguements so all after class name is stored in the "input" variable
     query = { "Industry" : input}
+    //The following line is line 17 at time of submission of the final version of the Enhancement 3 Narrative document
     result=collection.find(query, { "_id": 0, "Ticker": 1})
   except Exception as ve:             //generic exception handling, add specific exception possibilities when possible
     return ve
