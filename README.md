@@ -1,37 +1,3 @@
-## Welcome to GitHub Pages
+This project was created using codio to manipulate an existing database. If you wish to run either version, make sure that you have a MongoDB database (named "market") and collection(named "stocks") created from the stocks.json file, and the insert_input.json file is located in the default path the Final_Insert class will read from. The main class for each component of the java version is named "Application", thus if you wish for your project to contain more than one of them at a time be certain to rename them both in terms of file name and as it is defined in the code.
 
-You can use the [editor on GitHub](https://github.com/Phazonfish/phazonfish.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Phazonfish/phazonfish.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+CS340 Final Java composes enhancement 1. Enhancement 2 is contained within the enhancement 2 narrative document, and refers to commands for querying MongoDB in general, but is intended for use with CS340 Final Python. Enhancement 3 is contained within the enhancement 3 narrative and does not strictly require the database associated with either version of the project, but can be performed with the mongo commands listed in the Replication Setup Commands documents included in the repository and is intended for use with CS340 Final Python.
